@@ -3,4 +3,4 @@ def test_var_args(f_arg, *argv):
     for arg in argv:
         print("another arg through argv: ", arg)
 
-test_var_args('yahoo', "hello")
+test_var_args('yahoo', "hello", 'eggs')
